@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: white;
+    border: 1px solid red;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+header {
+    height: 90px;
+    background: #be123c;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftcube div {
+    height: 70px;
+    width: 90px;
+    background: #e11d48;
+}
+
+.rightp div {
+    height: 70px;
+    width: 300px;
+    background: #e11d48;
+}
+
+.crightp {
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+}
+
+.crightp div {
+    height: 60px;
+    width: 100px;
+    background: #fda4af;
+}
+
+main {
+    margin-top: 10px;
+}
+
+.base {
+    height: 500px;
+    width: 100%;
+    background: #1d4ed8;
+    padding: 10px;
+}
+
+.carreb {
+    display: flex;
+    column-gap: 10px;
+}
+
+.carreb div {
+    height: 480px;
+    width: 50%;
+    background: #3b82f6;
+}
+
+.carrebc1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 5px;
+}
+
+.carrebc1 div{
+    height: 33%;
+    width: 100%;
+    background: #93c5fd;
+}
+
+.carrebc2 {
+    display: flex;
+    column-gap: 10px;
+    padding: 5px;
+}
+
+.carrebc2 div{
+    height: 100%;
+    width: 33%;
+    background: #93c5fd;
+}
+
+@media screen and (max-width: 1000px) {
+    .rightp {
+        width: 100px;
+        color: black;
+    }
+
+    .rightp div {
+        height: 70px;
+        width: 100px;
+    }
+
+    .crightp {
+        gap: 0px;
+    }
+
+    .crightp div {
+        background: purple;
+        height: 60px;
+        width: 100%;
+    }
+    
+    .base {
+        height: 100%;
+    }
+    
+    .carreb {
+        flex-direction: column;
+    }
+
+    .carreb div{
+        width: 100%;
+        height: 330px;
+    } 
+
+    .carrebc2 div {
+        height: 100%;
+    }
+
+   
+}
