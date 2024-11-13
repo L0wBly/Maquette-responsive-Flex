@@ -99,18 +99,9 @@ main {
 }
 
 @media screen and (max-width: 1000px) {
-    .rightp {
-        width: 100px;
-        color: black;
-    }
-
     .rightp div {
         height: 70px;
         width: 100px;
-    }
-
-    .crightp {
-        gap: 0px;
     }
 
     .crightp .r {
@@ -124,10 +115,6 @@ main {
         width: 90px;
         display: block;
         background: purple;
-    }
-
-    .base {
-        height: 100%;
     }
     
     .carreb {
@@ -143,5 +130,4 @@ main {
         height: 100%;
     }
 
-   
 }
